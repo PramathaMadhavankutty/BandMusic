@@ -7,8 +7,8 @@
 
   /** @ngInject */
   function AboutUsController() {
-    var about = this;
+    var vm = this;
 
-    about.title = 'About Us';
+    vm.title = 'About Us';
   }
 })();

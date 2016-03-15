@@ -1,3 +1,8 @@
 .acme-navbar-text {
   color: white;
+
 }
+acme-navbar .container{
+	position: absolute;
+}
+
