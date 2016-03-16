@@ -1,21 +1,24 @@
-
-<div class="container" >
+<div class="container form_container" >
+  
 <div>
-	<acme-navbar></acme-navbar>
+	<acme-navbar><h1>Limes & vines</h1></acme-navbar>
 </div>
-<div class="form-container col-md-4">
-	<form name="form" ng-submit="submit(form)" novalidate>
+<div ng-controller="SignUpController as ctrl">
+<div class="form-container col-xs-6">
+	<form name="form" ng-submit="ctrl.submit(form)" novalidate>
+    <fieldset>
+      <legend><h1>Sign Up</h1></legend>
       <div class="row">
         <div class="col-offset-md-2 col-md-4">
       <label>Username</label><br>
       <input name='username' type="text" ng-model="user.username" placeholder="Enter Username" ng-minlength=3 ng-maxlength=20 required/> 
       <br>
         </div>
-        <div class="col-md-5 error-container" ng-show="form.username.$dirty && form.username.$invalid">
+        <div class="col-xs-9 error-container" ng-show="form.username.$dirty && form.username.$invalid">
           <label style='color: red'>Error:</label>
-          <p class="error" ng-show="form.username.$error.required">Please input a username</p>
-          <p class="error" ng-show="form.username.$error.minlength">Your username is required to be at least 3 characters</p>
-          <p class="error" ng-show="form.username.$error.maxlength">Your username cannot be longer than 20 characters</p>
+          <span class="error" ng-show="form.username.$dirty && form.username.$invalid && form.username.$error.required">Please input a username</span>
+          <span class="error" ng-show="form.username.$dirty && form.username.$error.minlength ">Your username is required to be at least 3 characters</span>
+          <span class="error" ng-show="form.username.$dirty && form.username.$error.maxlength && wasSubmitted">Your username cannot be longer than 20 characters</span>
         </div>
       </div>
       <div class="row">
@@ -24,33 +27,34 @@
       <input name='email' type="email" ng-model ="user.email" placeholder="Enter email address" ng-minlength=5 ng-maxlength=40 required  />
       <br>
     </div>
-        <div class="col-md-5 error-container" ng-show="form.email.$dirty && form.email.$invalid">
+        <div class="col-xs-9 error-container" ng-show="form.email.$dirty &&form.email.$invalid">
           <label style='color: red'>Error:</label>
-          <p class="error" ng-show="form.email.$error.required">Please input an email</p>
-          <p class="error" ng-show="form.email.$error.minlength">Your email is required to be at least 5 characters</p>
-          <p class="error" ng-show="form.email.$error.maxlength">Your email cannot be longer than 40 characters</p>
-          <p class="error" ng-show="form.email.$error.email">That is not a valid email. Please input a valid email.</p>
+          <span class="error" ng-show="form.email.$dirty && form.email.$invalid && form.email.$error.required">Please input an email</span>
+          <span class="error" ng-show="form.email.$dirty && form.email.$invalid && form.email.$error.minlength">Your email is required to be at least 5 characters</span>
+          <span class="error" ng-show="form.email.$dirty && form.email.$invalid && form.email.$error.maxlength">Your email cannot be longer than 40 characters</span>
+          <span class="error" ng-show="form.email.$dirty && form.email.$invalid && form.email.$error.email">That is not a valid email.</span>
         </div>
       </div>
     <div class="row">
       <div class="col-offset-md-2 col-md-4">
       <label>Password</label><br>
-      <input name='password' type="password" pattern="[A-Z]{3}[0-9]" title="Three uppercase characters followed by a number"ng-model ="user.password" placeholder="Enter password"  required/>
+      <input name='password' type="password" ng-model ="user.password" placeholder="Enter password" ng-minlength=8 required/>
       <br>
       </div>
-       <div class="col-md-5 error-container" ng-show="form.email.$dirty && form.email.$invalid">
+       <div class="col-xs-9 error-container" ng-show="form.password.$dirty && form.password.$invalid">
           <label style='color: red'>Error:</label>
-          <p class="error" ng-show="form.password.$error.required">Please input a password</p>
+          <span class="error" ng-show="form.password.$dirty && form.password.$invalid && form.password.$error.required">Please input a valid password</span>
+          <span class="error" ng-show="form.password.$dirty && form.password.$invalid && form.password.$error.minlength">your password must be atleast 8 letters long</span>
          
         </div>
-
     </div>
-
-
-      <br>
-      <button type="submit" class="btn btn-primary">Sign up</button>
+    <br>
+      <button type="submit" class=" active btn btn-primary">Sign up</button>
+      <button type="button" ng-click = "ctrl.cancel()"class="btn btn-danger">Cancel</button>
+    
+      </fieldset>
     </form>
-
+</div>
 </div>
 </div>
 
