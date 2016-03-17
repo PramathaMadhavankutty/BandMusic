@@ -13,14 +13,15 @@
   width: 50px;
 }
 .jumbotron.brand h1{
-	color:#40ff00;
+	color: #cc0000;
+  position:absolute;
+  top:5em;
+  bottom:5em;
 }
-.container-full-bg {
+.container {
 	width:100%;
 	height:100%;
-	max-width: 100%;
-	background-position:center;
-	background-size:cover;
+	max-width: 100%;	
 }
 .jumbotron {
 	height:100%;
@@ -31,3 +32,17 @@
 	background-color:#ffcccc;
 	
 }
+.slider {
+    width: 100%;
+    height:400px;
+    background: inherit;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0px solid #FFF;
+    margin-top: 20px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
