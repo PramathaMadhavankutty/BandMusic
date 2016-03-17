@@ -20,8 +20,9 @@
 }
 .container {
 	width:100%;
-	height:100%;
-	max-width: 100%;	
+	max-width: 100%;
+  
+  display:block;
 }
 .jumbotron {
 	height:100%;
@@ -33,16 +34,18 @@
 	
 }
 .slider {
-    width: 100%;
-    height:400px;
+    width:100%;
+    height:auto;
+    display:block;
+    padding:0px;
     background: inherit;
     background-position:top;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 0px solid #FFF;
+    
     margin-top: 20px;
     position: absolute;
     top:0;
     left: 0;
+     
 }
-
