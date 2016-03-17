@@ -12,4 +12,3 @@
     vm.title = 'Log In';
   }
 })();
-
