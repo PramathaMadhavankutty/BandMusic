@@ -6,9 +6,23 @@
     .controller('LogInController', LogInController);
 
   /** @ngInject */
-  function LogInController() {
+  function LogInController($location, $log) {
     var vm = this;
-
-    vm.title = 'Log In';
+    vm.user ={};
+    vm.wasSubmitted = false;
+    vm.login = function(login) {
+                if(login.$valid){
+                  vm.wasSubmitted=true;
+                  $location.path('/shop'); 
+                }
+                else{
+                  $log('Error:');
+                  vm.wasSubmitted = true;
+                }
+          };
+    vm.cancel = function(){
+                $location.path('/'); 
+   };
+   
   }
 })();

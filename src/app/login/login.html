@@ -4,9 +4,46 @@
     <acme-navbar></acme-navbar>
   </div>
 
-  <div class="jumbotron text-center">
-    <h1>{{vm.title}}</h1>
-  </div>
+  
+  <div ng-controller="LogInController as ctrl">
+<div class="form-container col-xs-6">
+	<form name="logform" ng-submit="ctrl.login(logform)" novalidate>
+    <fieldset>
+      <legend><h1>Log In</h1></legend>
+      <div class="row">
+        <div class="col-offset-md-2 col-md-4">
+      <label>Username</label><br>
+      <input name='username' type="text" ng-model="user.username" placeholder="Enter Username" ng-minlength=3 ng-maxlength=20 required/> 
+      <br>
+        </div>
+        <div class="col-xs-9 error-container" ng-show="logform.username.$dirty && logform.username.$invalid">
+          <label style='color: red'>Error:</label>
+          <span class="error" ng-show="logform.username.$dirty && logform.username.$invalid && logform.username.$error.required">Please input a username</span>
+          <span class="error" ng-show="logform.username.$dirty && logform.username.$error.minlength ">Your username is required to be at least 3 characters</span>
+          <span class="error" ng-show="logform.username.$dirty && logform.username.$error.maxlength">Your username cannot be longer than 20 characters</span>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-offset-md-2 col-md-4">
+      <label>Password</label><br>
+      <input name='password' type="password" ng-model ="user.password" placeholder="Enter password" ng-minlength=8 required/>
+      <br>
+      </div>
+       <div class="col-xs-9 error-container" ng-show="logform.password.$dirty && logform.password.$invalid">
+          <label style='color: red'>Error:</label>
+          <span class="error" ng-show="logform.password.$dirty && logform.password.$invalid && logform.password.$error.required">Please input a valid password</span>
+          <span class="error" ng-show="logform.password.$dirty && logform.password.$invalid && logform.password.$error.minlength">your password must be atleast 8 letters long</span>
+         
+        </div>
+    </div>
+    <br>
+      <button type="submit" class=" active btn btn-primary">Log In</button>
+      <button type="button" ng-click = "ctrl.cancel()"class="btn btn-danger">Cancel</button>
+    
+      </fieldset>
+    </form>
+</div>
+</div>
 
 </div>
 

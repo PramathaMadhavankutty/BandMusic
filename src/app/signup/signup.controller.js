@@ -11,6 +11,7 @@
     vm.user = {};
     vm.wasSubmitted = false;
     vm.submit = function(submit) {
+<<<<<<< HEAD
       if (submit.$valid) {
         vm.wasSubmitted = true;
         $location.path('/login');
@@ -21,5 +22,20 @@
       }
 
     };
+=======
+                if(submit.$valid){
+                  vm.wasSubmitted=true;
+                  $location.path('/login/'); 
+                }
+                else{
+                  $log('Error:');
+                  vm.wasSubmitted = true;
+                }
+          };
+    vm.cancel = function(){
+                $location.path('/'); 
+   };
+   
+>>>>>>> 504c960e44a271af768c063e35773d42bc83bd89
   }
 })();

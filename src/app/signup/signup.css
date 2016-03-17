@@ -1,0 +1,12 @@
+body{
+	background-color: #d0d0e1;
+}
+.form-container{
+	position:absolute;
+	padding:20px ;
+
+	margin-right:150px;
+	margin-left: 200px;
+	font-size: 2em;
+	font-family: Verdana;
+}
