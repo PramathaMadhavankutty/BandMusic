@@ -8,7 +8,6 @@
   /** @ngInject */
   function AboutUsController() {
     var vm = this;
-
-    vm.title = 'About Us';
+	vm.title = 'Limes and Vines';
   }
 })();
