@@ -1,4 +1,8 @@
-.browsehappy {
+body{
+  padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
@@ -50,8 +54,8 @@
      
 }
 .text-container{
+  text-align: justify; 
+}
+.details .para{
   text-align: justify;
-  
- 
-  
 }

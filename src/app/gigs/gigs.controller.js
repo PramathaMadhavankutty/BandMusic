@@ -3,12 +3,12 @@
 
   angular
     .module('bandMusic')
-    .controller('NewsController', NewsController);
+    .controller('GigsController', GigsController);
 
   /** @ngInject */
-  function NewsController() {
+  function GigsController() {
     var vm = this;
 
-    vm.title = 'News';
+    vm.title = 'Gigs';
   }
 })();

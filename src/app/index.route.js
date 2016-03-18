@@ -17,9 +17,9 @@
         controller: 'AboutUsController',
         controllerAs: 'vm'
       })
-      .when('/news', {
-        templateUrl: 'app/news/news.html',
-        controller: 'NewsController',
+      .when('/gigs', {
+        templateUrl: 'app/gigs/gigs.html',
+        controller: 'GigsController',
         controllerAs: 'vm'
       })
       .when('/gallery', {
