@@ -12,7 +12,8 @@
       'ngRoute',
       'ui.bootstrap',
       'toastr',
-      'angular-flexslider'
+      'angular-flexslider',
+      'data-table'
     ]);
 
 })();
