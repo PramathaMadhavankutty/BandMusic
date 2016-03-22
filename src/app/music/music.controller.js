@@ -6,18 +6,26 @@
     .controller('MusicController', MusicController);
 
   /** @ngInject */
-  function MusicController($http) {
+  function MusicController(ngAudio) {
     var vm = this;
-	vm.songs = [];
-    
-    function loadAudios(){
-      $http.get('assets-band/assets/albums.json')
-        .then(function(response){
-          vm.songs = response.data;
-        });
-    }
-    
-    loadAudios();
+     vm.audios=[{
+      id:0,
+      'url':'assets-band/assets/audio/Clarksville.mp3'
+    },
+    {
+      id:1,
+      'url':'assets-band/assets/audio/DaydreamBeliever.mp3'
+    },
+    {
+          id:2,
+          'url':'assets-band/assets/audio/ImABeliever.mp3'
+    },   
+    {
+            id:3,
+            'url':'assets-band/assets/audio/SteppingStone.mp3'
+    }];
+
+
   }
   
 })();

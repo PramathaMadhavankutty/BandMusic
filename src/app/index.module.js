@@ -13,7 +13,7 @@
       'ui.bootstrap',
       'toastr',
       'angular-flexslider',
-      'data-table'
+      'ngAudio'
      
       
     ]);
