@@ -1,12 +1,27 @@
 body{
-	background-color: #d0d0e1;
-}
+    background-color: #ccc;
+    }
 .form-container{
 	position:absolute;
 	padding:20px ;
+	margin-right:auto;
+	margin-left: auto;
+	width:400px;
 
-	margin-right:150px;
-	margin-left: 200px;
-	font-size: 2em;
-	font-family: Verdana;
+
+}
+
+.centered-form{
+margin-top: 60px;
+
+
+	
+}
+
+.centered-form .panel{
+
+	background:#fff;
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+	border: 5px solid #000;
+	border-radius: 25px;
 }
