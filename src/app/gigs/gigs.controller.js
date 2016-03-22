@@ -6,39 +6,50 @@
     .controller('GigsController', GigsController);
 
   /** @ngInject */
-  function GigsController($http) {
+ 
+    function GigsController() {
     var vm = this;
-    vm.options = {
-    rowHeight: 50,
-    headerHeight: 50,
-    footerHeight: false,
-    scrollbarV: false,
-    selectable: false,
-    columns: [
-    {
-      name: "Date",
-      
-    }, 
-    {
-      name: "Venue"
-    }, 
-    {
-      name: "Location"
+    vm.shows = [{
+        
+  'date':'10-06-2016',
+  'venue':'Festival-De-Les Arts',
+  'location':'Valencia,Spain'
+    
+    },
+	{
+        
+  'date':'15-06-2016',
+  'venue':'Festival-De-Les Arts',
+  'location':'Valencia,Spain'
+    
     },
     {
-      name: "Tickets"
-    }
-    ]
-  };
-    vm.data=[];
-     function loadDataTable(){
-      $http.get('/table.json')
-        .then(function(response){
-          vm.data = response.data;
-        });
-    }
+        
+  'date':'15-06-2016',
+  'venue':'Festival-De-Les Arts',
+  'location':'Valencia,Spain'
     
-    loadDataTable();
-}
+    },
+    {
+        
+  'date':'15-06-2016',
+  'venue':'Festival-De-Les Arts',
+  'location':'Valencia,Spain'
+    
+    }
+
+];
+   
+/*vm.rows = [{'name':'arya','id':'2'},{'name':'arya','id':'2'}];
+
+ vm.counter = 3;
   
+  vm.addRow = function() {
+    
+    vm.rows.push('Row ' + this.counter);
+    vm.counter++;
+  }*/
+
+  }
+    
 })();

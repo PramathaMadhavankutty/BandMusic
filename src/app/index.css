@@ -59,11 +59,25 @@ body{
 .details .para{
   text-align: justify;
 }
-.img-responsive{
-  width:510px;
-  height:390px;
-}
-.row{
+.image {
+  width:500px;
+  height:310px;
   margin:10px;
   padding: 10px;
-}
+ }
+ .section{
+  padding:10px;
+  margin:10px;
+ }
+ .album{
+  border: 2px solid green;
+ }
+ /*.tstyle{
+  position: absolute;
+  padding:150px;
+  margin-left: auto;
+  margin-right: auto;
+  border:2px solid #000;
+ }*/
+ 
+ 

@@ -3,8 +3,45 @@
   <div>
     <acme-navbar></acme-navbar>
   </div>
-<dtable data-table="{{vm.data}}"class="material">
-
-</dtable>
+<div class="table-responsive">
+<table class="table">
+<thead> 
+<tr>
+    <th width="200">Date</th>
+    <th width="200">Venue</th>
+    <th width="200">Location</th>
+    <th width="200">Tickets</th>
+</tr>
+</thead>
+<tbody>
+<tr ng-repeat="show in vm.shows">
+    <td>{{ show.date }}</td>
+    <td>{{ show.venue }}</td>
+    <td>{{ show.location }}</td>
+    <td>
+        <a  href="#/" ng-click="go()">Get Tickets</a>
+        
+    </td>
+ </tr>
+</tbody>
+</table> 
+</div>   
+<!--<a href="#" class="button" ng-click="addRow()">Add Row {{counter}}</a>
+    
+<table>
+  <thead>
+    <tr>
+      <th width="200">Some Header</th>
+      <th width="200">Some Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="rowContent in rows">
+      <td>{{rowContent.name}}</td>
+      <td>{{rowContent.id}}</td>
+     
+    </tr>
+  </tbody>
+</table> -->   
 
 </div>

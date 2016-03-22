@@ -14,6 +14,7 @@
       'toastr',
       'angular-flexslider',
       'data-table'
+     
       
     ]);
 
