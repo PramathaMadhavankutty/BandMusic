@@ -40,15 +40,7 @@
 
 ];
    
-/*vm.rows = [{'name':'arya','id':'2'},{'name':'arya','id':'2'}];
 
- vm.counter = 3;
-  
-  vm.addRow = function() {
-    
-    vm.rows.push('Row ' + this.counter);
-    vm.counter++;
-  }*/
 
   }
     
