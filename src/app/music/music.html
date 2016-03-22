@@ -1,23 +1,45 @@
 <div>
     <acme-navbar></acme-navbar>
 </div>
-<div class="container ">
+<div class="container">
+<div id="nav" class="nav navbar-nav">
+        <ul class="nav navbar-nav">
+            <li><a href="#/gallery">Images</a>
+            </li>
+            <li><a href="#/music">Music</a>
+            </li>
+            <li><a href="#/">Videos</a>
+            </li>
+        </ul>
+
+</div>
+</div>
+
+
+<div class="container">
 	<div class="col-md-4 album">
 		<div class="section ">
+
 			<div class="col-md-4">
-				<img class="img-responsive" src="assets-band/assets/images/Clarksville.png"  >
+				<img class="img-responsive" src="assets-band/assets/images/Clarksville.png">
 			</div>
+		
 			<h2>Album Name</h2>
 		</div><br>
 		<div class="section">
 		<audio controls="controls" preload="auto" loop="loop">
-			
-			<source src="assets-band/assets/audio/Clarksville.mp3" type="audio/mpeg; codecs=mp3" />
+			<source ng-src="assets-band/assets/audio/DaydreamBeliever.mp3" type="audio/mpeg; codecs=mp3" />
 			
 		</audio>
+		<ol>
+			<li>Song 1</li>
+			<li>Song 2</li>
+			<li>Song 3</li>
+		</ol>
+	
 		</div>
 			
 
-		
+		</div>
 	</div>
 </div>

@@ -11,7 +11,7 @@
 	vm.songs = [];
     
     function loadAudios(){
-      $http.get('assets-band/assets/audios.json')
+      $http.get('assets-band/assets/albums.json')
         .then(function(response){
           vm.songs = response.data;
         });
