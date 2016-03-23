@@ -1,0 +1,15 @@
+<div class="container">
+	<ul class="col-md-4">
+		<img class="img-responsive" src="assets-band/assets/images/band.jpg">
+		<br>
+		<h2>Clarksville</h2>
+		<audio ng-show="player.activeTrack" controls>
+			<source ng-src="{{player.activeTrack.url}}" type="audio/mpeg">
+		</audio>
+		<ol>
+			<li ng-repeat="audio in player.list">
+				<button ng-click="player.playTrack(audio);">{{audio.title}}</button>
+			</li>
+		</ol>
+	</ul>
+</div>

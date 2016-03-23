@@ -45,7 +45,7 @@
       .when('/music',{
         templateUrl: 'app/music/music.html',
         controller: 'MusicController',
-        controllerAs: 'vm'
+        controllerAs: 'music'
       })
      
 
