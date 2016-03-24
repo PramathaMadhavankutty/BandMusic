@@ -12,11 +12,10 @@
 	flex:1; 
 	display: flex;	
 	flex-flow:column;
-	min-width: 300px; 
+	max-width: 300px; 
 	margin: 10px;
 	padding: 20px;
 	background-color: #fff;
-	margin-right: auto;
-	margin-left: auto;
+
 	
 }

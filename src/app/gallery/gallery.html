@@ -17,32 +17,7 @@
   	
     <div class="img-container">
     <div class="image-row">
-        <div class="col-md-6">
-            <img class="img-responsive image" src="assets-band/assets/images/perform1.jpg" >
-     </div>
-         <div class="col-md-6">
-            <img class="img-responsive image" src="assets-band/assets/images/perform3.jpg" >   
-        </div>
-     </div>
-      </div>
-      <div class="img-container">
-        <div class="image-row">
-            <div class="col-md-6">
-            <img class=" img-responsive image" src="assets-band/assets/images/perform4.jpg">
-            </div>
-            <div class="col-md-6"> 
-             <img class="img-responsive image" src="assets-band/assets/images/perform5.jpg">
-            </div>
-    	</div>
-      </div>
-      <div class="img-container">
-    	<div class="image-row">
-            <div class="col-md-6">
-            <img class="img-responsive image" src="assets-band/assets/images/perform6.jpg">
-            </div>
-            <div class="col-md-6"> 
-             <img class="img-responsive image" src="assets-band/assets/images/perform7.jpg">
-            </div>
+            <img class="img-responsive image col-md-6" ng-repeat="image in vm.images"ng-src="{{image.src}}" />
     	</div>
       </div>
           
