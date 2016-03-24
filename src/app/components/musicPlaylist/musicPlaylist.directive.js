@@ -12,7 +12,8 @@
       restrict: 'E',
       templateUrl: 'app/components/musicPlaylist/musicPlaylist.html',
       scope: {
-        list: '='
+        list: '=',
+        type: '@'
       },
       controller: MusicPlaylistController,
       controllerAs: 'player',
@@ -20,24 +21,35 @@
     };
     
     /*
-    <music-playlist list="vm.sounds"
+    to show audio lists:
+    <music-playlist list="vm.sounds"></music-playlist>
+    or:
+    <music-playlist list="vm.sounds" type="audio"></music-playlist>
+    
+    to show video lists:
+    <music-playlist list="vm.sounds" type="video"></music-playlist>
     */
 
     /** @ngInject */
     function MusicPlaylistController(moment, $element) {
       var vm = this;
-      var audioTag = $($element).find('audio').get(0);
       
-      // vm.audiolist = [];
+      if(!vm.type){
+        vm.type = 'audio';
+      }
+      vm.isVideo = (vm.type === 'video');
+      vm.isAudio = (vm.type === 'audio');
       
-      
+      var mediaTag = $($element).find(vm.type).get(0);
       
       vm.playTrack = function(track){
         vm.activeTrack = track;
         
-        audioTag.src = track.url;
-        audioTag.play();
+        mediaTag.src = track.url;
+        mediaTag.play();
       };
+      
+      
     }
   }
 

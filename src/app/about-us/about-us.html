@@ -6,7 +6,7 @@
    <div class="row">
 
         <div class="col-lg-12">
-            <h1 class="page-header">Limes and Vines </h1>   
+            <h1 class="page-header">{{vm.title}}</h1>   
         </div>
 
     </div>
@@ -31,46 +31,60 @@
         <div class="col-lg-12">
             <h3 class="page-header">Our Team</h3>
         </div>
+        
+        <div class="details col-sm-4" ng-repeat="member in vm.members">
+            <img class="img-responsive" ng-src="{{ member.avatar }}" width="360" height="240">
 
-        <div class="details col-sm-4">
-            <img class="img-responsive" src="assets-band/assets/images/bowles1.jpg" width="360" height="240">
-
-            <h3>COY BOWLES </h3>
-                <p class="para">When I was a kid, I had a room that was next to my bedroom at my parent’s house. Actually, it was part of the attic. It was my world and secret passageway into music and all things creative and awesome. The walls were filled with photos of my favorite bands, musicians, and skateboarders that had been ripped out of magazines and stuck to the wall with thumbtacks and Scotch tape.There was a hammock in this musical, isolation chamber that was filled with sleeping bags and old pillows. I would sit in the hammock and listen to music everyday. I would sing as loud as I could and fill my body with music.</p>
+            <h3>{{member.fullName}}</h3>
+                <p class="para">{{member.bio}}</p>
              <ul class="list-unstyled list-inline list-social-icons">
-                <li><a target="_blank" title="follow us on Twitter" href="http://www.twitter.com/coydroy"><img alt="follow me on Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png" border=0></a>
+                <li ng-show="member.twitter"><a target="_blank" title="follow us on Twitter" ng-href="http://www.twitter.com/{{member.twitter}}"><img alt="follow me on Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png" border=0></a>
                 </li>
-                <li><a target="_blank" title="follow us on facebook" href="http://www.facebook.com/the.clay.cook"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png" border=0></a>
+                <li ng-show="member.facebook"><a target="_blank" title="follow us on facebook" href="http://www.facebook.com/{{member.facebook}}"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png" border=0></a>
                 </li>
                
             </ul>
         </div>
 
-        <div class="details col-sm-4">
-            <img class="img-responsive" src="assets-band/assets/images/cook2.jpg" width="360" height="240">
+        <!--<div class="details col-sm-4">-->
+        <!--    <img class="img-responsive" src="assets-band/assets/images/bowles1.jpg" width="360" height="240">-->
 
-            <h3>CLAY COOK</h3>
-            <p class="para">Hello, Internet. This is awkward so I'll make it quick.
-			I was born on April 20th, 1978 (send cash, not presents) in Atlanta, GA. Had a relatively simple, suburban upbringing. My interest in music was a little out of the ordinary for most 5 year olds. I was actually PLAYING guitar by 7. While everyone else was playing video games, I was practicing scale fingers & chord changes.I was practicing scale fingers & chord changes. I am still good at Techmo Bowl though.Fast forward 10 years. They don't let you take 'guitar' in public school. Soooo,I picked up drums in the fine arts department in high school.</p>
-            <ul class="list-unstyled list-inline list-social-icons">
-                <li><a target="_blank" title="follow us on Twitter" href="http://www.twitter.com/"><img alt="follow me on Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png" border=0></a>
-                </li>
-                <li><a target="_blank" title="follow us on facebook" href="http://www.facebook.com/the.clay.cook"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png" border=0></a>
-                </li>
-            </ul>
-        </div>
+        <!--    <h3>COY BOWLES </h3>-->
+        <!--        <p class="para">When I was a kid, I had a room that was next to my bedroom at my parent’s house. Actually, it was part of the attic. It was my world and secret passageway into music and all things creative and awesome. The walls were filled with photos of my favorite bands, musicians, and skateboarders that had been ripped out of magazines and stuck to the wall with thumbtacks and Scotch tape.There was a hammock in this musical, isolation chamber that was filled with sleeping bags and old pillows. I would sit in the hammock and listen to music everyday. I would sing as loud as I could and fill my body with music.</p>-->
+        <!--     <ul class="list-unstyled list-inline list-social-icons">-->
+        <!--        <li><a target="_blank" title="follow us on Twitter" href="http://www.twitter.com/coydroy"><img alt="follow me on Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png" border=0></a>-->
+        <!--        </li>-->
+        <!--        <li><a target="_blank" title="follow us on facebook" href="http://www.facebook.com/the.clay.cook"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png" border=0></a>-->
+        <!--        </li>-->
+               
+        <!--    </ul>-->
+        <!--</div>-->
 
-        <div class=" details col-sm-4">
+   <!--     <div class="details col-sm-4">-->
+   <!--         <img class="img-responsive" src="assets-band/assets/images/cook2.jpg" width="360" height="240">-->
+
+   <!--         <h3>CLAY COOK</h3>-->
+   <!--         <p class="para">Hello, Internet. This is awkward so I'll make it quick.-->
+			<!--I was born on April 20th, 1978 (send cash, not presents) in Atlanta, GA. Had a relatively simple, suburban upbringing. My interest in music was a little out of the ordinary for most 5 year olds. I was actually PLAYING guitar by 7. While everyone else was playing video games, I was practicing scale fingers & chord changes.I was practicing scale fingers & chord changes. I am still good at Techmo Bowl though.Fast forward 10 years. They don't let you take 'guitar' in public school. Soooo,I picked up drums in the fine arts department in high school.</p>-->
+   <!--         <ul class="list-unstyled list-inline list-social-icons">-->
+   <!--             <li><a target="_blank" title="follow us on Twitter" href="http://www.twitter.com/"><img alt="follow me on Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png" border=0></a>-->
+   <!--             </li>-->
+   <!--             <li><a target="_blank" title="follow us on facebook" href="http://www.facebook.com/the.clay.cook"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png" border=0></a>-->
+   <!--             </li>-->
+   <!--         </ul>-->
+   <!--     </div>-->
+
+      <!--  <div class=" details col-sm-4">
             <img class="img-responsive" src="assets-band/assets/images/daniel1.jpg" width="360" height="240">
 
             <h3>DANIEL DE LOS REYES</h3>
-            <p class="para">Where to start... I have been playing drum set and percussion instruments as far back as I can remember. I think I was probably banging inside my mother's womb until she could stand it no more and said "you're out of there" like an umpire in a baseball game. But on a serious note, from the day I was born I heard many different styles and rhythms of music due to the love my parents have for music. My mother is Puerto Rican/American and my father is Cuban/American. I clearly remember my mother always singing beautiful Puerto Rican melodies to us all the time when we were growing up.</p>
+            <p class="para">Where to start... I have been playing drum set and percussion instruments as far back as I can remember. I think I was probably banging inside my mother's womb until she could stand it no more and said :you're out of there like an umpire in a baseball game. But on a serious note, from the day I was born I heard many different styles and rhythms of music due to the love my parents have for music. My mother is Puerto Rican/American and my father is Cuban/American. I clearly remember my mother always singing beautiful Puerto Rican melodies to us all the time when we were growing up.</p>
             <ul class="list-unstyled list-inline list-social-icons">
               <li><a target="_blank" title="follow us on Twitter" href="http://www.twitter.com/"><img alt="follow me on Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png" border=0></a>
                 </li>
                 <li><a target="_blank" title="follow us on facebook" href="http://www.facebook.com/the.clay.cook"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png" border=0></a></li>
             </ul>
-        </div>
+        </div>-->
 
         <div class="details col-sm-4">
             <img class="img-responsive" src="assets-band/assets/images/jimmy.jpg" width="360" height="240">

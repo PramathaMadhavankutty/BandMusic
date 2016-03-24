@@ -4,6 +4,7 @@
         <acme-navbar></acme-navbar>
     </div>
     <div class="table-responsive">
+        <!-- You could use "Bootstrap Grid System" to create columns or tables -->
         <table class="table panel">
             <thead>
                 <tr>
@@ -19,12 +20,12 @@
                     <td>{{ show.venue }}</td>
                     <td>{{ show.location }}</td>
                     <td>
-                        <button class="btn"><a href="#/">Get Tickets</a></button>
+                        <button class="btn">
+                            <a ng-href="{{show.ticketUrl}}">Get Tickets</a>
+                        </button>
                     </td>
                 </tr>
             </tbody>
         </table>
     </div>
-
-
 </div>

@@ -9,6 +9,10 @@
   function VideoController() {
     var vm = this;
     
-  
+    vm.list = [{
+        "id": 1,
+        "title": "Sample Video",
+        "url": "assets-band/assets/video/TheMonkees.mp4"
+    }];
   }
 })();

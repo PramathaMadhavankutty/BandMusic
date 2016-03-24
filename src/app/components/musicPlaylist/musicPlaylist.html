@@ -1,16 +1,17 @@
-<div class="container">
-	
-	<ul class="col-md-4">
-		<!--<img class="img-responsive" src="assets-band/assets/images/band.jpg">
+<div class="musicPlaylist container">
+	<div class="col-md-4">
+		<!--<img video="true" class="img-responsive" src="assets-band/assets/images/band.jpg">
         <br>
         <h2>Clarksville</h2>-->
-		<audio ng-show="player.activeTrack" controls>
+		<audio ng-show="player.isAudio && player.activeTrack" controls>
 			<source ng-src="{{player.activeTrack.url}}" type="audio/mpeg">
 		</audio>
-		<ol style="list-style-type:disc">
-			<li ng-repeat="audio in player.list"><button class="btn btn-default" ng-click="player.playTrack(audio);">{{audio.title}}</button> 
+		<video ng-show="player.isVideo && player.activeTrack" controls>
+			<source ng-src="{{player.activeTrack.url}}" type="video/mp4">
+		</video>
+		<ol>
+			<li ng-repeat="audio in player.list"><button class="btn btn-default play-btn" ng-click="player.playTrack(audio);">{{audio.title}}</button> 
 			</li>
 		</ol>
-	</ul>
-
+	</div>
 </div>

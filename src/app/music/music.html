@@ -17,17 +17,18 @@
 
     <!--<button ng-audio="assets-band/assets/audio/Clarksville.mp3" volume="0.5">Click me</button>-->
 <div class="container album">
-<div class="row col-md-4">
+    
+<div class="row col-md-4" ng-repeat="album in music.albums">
     <div>
-        <img class="card_image img-responsive" src="assets-band/assets/images/Clarksville.png">
-       
-        <h2>Clarksville</h2>
+        <img class="card_image img-responsive" ng-src="{{album.cover}}">
+        <br>
+        <h2>{{album.title}}</h2>
     </div> 
     <div>
-        <music-playlist list="music.audios"></music-playlist>
+        <music-playlist list="album.audios"></music-playlist>
      </div>
 </div>
-<div class="row col-md-4">
+<!--<div class="row col-md-4">
     <div>
         <img class=" card_image img-responsive " src="assets-band/assets/images/flatout.png">
         <br>
@@ -78,5 +79,5 @@
     <div>   
         <music-playlist list="music.audios"></music-playlist>
     </div> 
- </div> 
+ </div>-->
 </div>

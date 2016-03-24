@@ -1,3 +1,14 @@
-.container{
+.musicPlaylist{
 	padding: 5px;
+}
+
+.musicPlaylist ol{
+    list-style-type: decimal;
+    color: #fff;
+}
+
+.musicPlaylist .play-btn{
+    background-color: transparent;
+    color: #fff;
+    border-style: none;
 }

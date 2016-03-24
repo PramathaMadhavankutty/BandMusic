@@ -1,4 +1,4 @@
-(function() {
+(function () {
   'use strict';
 
   angular
@@ -6,19 +6,15 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($http) {
+  function MainController(MusicService) {
     var vm = this;
-    
+
     vm.images = [];
-    
-    function loadSliderImages(){
-      $http.get('assets-band/assets/slider.json')
-        .then(function(response){
-          vm.images = response.data;
-        });
-    }
-    
-    loadSliderImages();
+
+    MusicService.loadSliderImages()
+      .then(function (images) {
+        vm.images = images;
+      });
   }
-  
+
 })();

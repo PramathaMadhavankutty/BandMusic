@@ -1,0 +1,55 @@
+[{
+    "title": "Clarksville",
+    "cover": "assets-band/assets/images/Clarksville.png",
+    "audios": [{
+        "id": 0,
+        "title": "Clarksville",
+        "url": "assets-band/assets/audio/Clarksville.mp3",
+        "icon": "assets-band/assets/images/band.jpg"
+    }, {
+        "id": 1,
+        "title": "DaydreamBeliever",
+        "url": "assets-band/assets/audio/DaydreamBeliever.mp3",
+        "icon": "assets-band/assets/images/beatles.jpg"
+    }, {
+        "id": 2,
+        "title": "ImABeliever",
+        "url": "assets-band/assets/audio/ImABeliever.mp3",
+        "icon": "assets-band/assets/images/nband2.jpg"
+    }, {
+        "id": 3,
+        "title": "SteppingStone",
+        "url": "assets-band/assets/audio/SteppingStone.mp3",
+        "icon": "assets-band/assets/images/band.jpg"
+    }]
+}, {
+    "title": "Flat Out",
+    "cover": "assets-band/assets/images/flatout.png",
+    "audios": [{
+        "id": 1,
+        "title": "Flat Out",
+        "url": "assets-band/assets/audio/DaydreamBeliever.mp3",
+        "icon": "assets-band/assets/images/beatles.jpg"
+    }, {
+        "id": 2,
+        "title": "Flat Out 2",
+        "url": "assets-band/assets/audio/ImABeliever.mp3",
+        "icon": "assets-band/assets/images/nband2.jpg"
+    }, {
+        "id": 3,
+        "title": "SteppingStone 2",
+        "url": "assets-band/assets/audio/SteppingStone.mp3"
+    }]
+}, {
+    "title": "Hall of Fame",
+    "cover": "assets-band/assets/images/halloffame.jpg",
+    "audios": [{
+        "id": 2,
+        "title": "Hall of Fame",
+        "url": "assets-band/assets/audio/ImABeliever.mp3"
+    }, {
+        "id": 3,
+        "title": "Hall of Fame",
+        "url": "assets-band/assets/audio/SteppingStone.mp3"
+    }]
+}]

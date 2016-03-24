@@ -48,12 +48,10 @@
         controllerAs: 'music'
       })
       .when('/videos',{
-        templateUrl: 'app/videos/videos.html',
+        templateUrl: 'app/video/video.html',
         controller: 'VideoController',
         controllerAs: 'video'
       })
-     
-
       .otherwise({
         redirectTo: '/'
       });
