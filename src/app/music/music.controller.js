@@ -34,6 +34,17 @@
       'url': 'assets-band/assets/audio/SteppingStone.mp3',
       icon: 'assets-band/assets/images/band.jpg'
       }];
+    vm.audios1 = [{
+      id: 0,
+      title: 'Clarksville',
+      'url': 'assets-band/assets/audio/Clarksville.mp3',
+      icon: 'assets-band/assets/images/band.jpg'
+    }, {
+      id: 1,
+      title: 'DaydreamBeliever',
+      'url': 'assets-band/assets/audio/DaydreamBeliever.mp3',
+      icon: 'assets-band/assets/images/beatles.jpg'
+    }];
   }
 
 })();

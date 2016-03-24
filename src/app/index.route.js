@@ -47,6 +47,11 @@
         controller: 'MusicController',
         controllerAs: 'music'
       })
+      .when('/videos',{
+        templateUrl: 'app/videos/videos.html',
+        controller: 'VideoController',
+        controllerAs: 'video'
+      })
      
 
       .otherwise({
