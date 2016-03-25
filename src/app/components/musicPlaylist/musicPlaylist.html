@@ -8,6 +8,7 @@
 		</audio>
 		<video ng-show="player.isVideo && player.activeTrack" controls>
 			<source ng-src="{{player.activeTrack.url}}" type="video/mp4">
+
 		</video>
 		<ol>
 			<li ng-repeat="audio in player.list"><button class="btn btn-default play-btn" ng-click="player.playTrack(audio);">{{audio.title}}</button> 

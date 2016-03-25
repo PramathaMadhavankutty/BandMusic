@@ -6,13 +6,13 @@
     .controller('VideoController', VideoController);
 
   /** @ngInject */
-  function VideoController() {
+  function VideoController(MusicService) {
     var vm = this;
     
-    vm.list = [{
-        "id": 1,
-        "title": "Sample Video",
-        "url": "assets-band/assets/video/TheMonkees.mp4"
-    }];
+    vm.videos = [];
+    MusicService.loadVideos()
+    .then(function(videos){
+      vm.videos = videos;
+    });
   }
 })();

@@ -1,0 +1,22 @@
+[{
+        "id": 1,
+        "title": "The Monkees",
+        "url": "assets-band/assets/video/TheMonkees.mp4"
+    },{
+    	"id": 2,
+        "title": "Broken Dreams",
+        "url": "assets-band/assets/video/broken_dreams.mp4"
+    },{
+    	"id": 3,
+        "title": "Question",
+        "url": "assets-band/assets/video/question.mp4"
+    },{
+        "id": 4,
+        "title": "Born To Lead",
+        "url": "assets-band/assets/video/bornToLead.mp4"
+    },{
+       	"id": 5,
+        "title": "Crawling In the Dark",
+        "url": "assets-band/assets/video/crawlingInTheDark.mp4"
+    }]
+        

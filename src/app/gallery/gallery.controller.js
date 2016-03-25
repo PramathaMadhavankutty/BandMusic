@@ -6,24 +6,16 @@
     .controller('GalleryController', GalleryController);
 
   /** @ngInject */
-  function GalleryController() {
+  function GalleryController(MusicService) {
     var vm = this;
 
-    vm.images = [{
-    	src:'assets-band/assets/images/perform1.jpg'
-    },
-    {
-    	src:'assets-band/assets/images/perform2.jpg'
-    },
-    {
-    	src:'assets-band/assets/images/perform3.jpg'
-    },
-    {
-    	src:'assets-band/assets/images/perform4.jpg'
-    },
-    {
-    	src:'assets-band/assets/images/perform5.jpg'
-    }
-    ];
+    vm.pics = [];
+    MusicService.loadImages()
+      .then(function (pics) {
+        vm.pics = pics;
+      });
+    
+    
+
   }
 })();

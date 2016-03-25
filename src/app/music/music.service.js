@@ -9,7 +9,9 @@
   function MusicService($http) {
     return {
         loadAlbums: loadAlbums,
-        loadSliderImages: loadSliderImages
+        loadSliderImages: loadSliderImages,
+        loadImages:loadImages,
+        loadVideos:loadVideos
     }
     
     function loadSliderImages(){
@@ -21,6 +23,19 @@
     
     function loadAlbums(){
         return $http.get('assets-band/assets/albums.json')
+            .then(function(response){
+              return response.data;
+            });
+    }
+
+    function loadImages(){
+        return $http.get('assets-band/assets/images.json')
+            .then(function(response){
+              return response.data;
+            });
+    }
+    function loadVideos(){
+        return $http.get('assets-band/assets/videos.json')
             .then(function(response){
               return response.data;
             });
