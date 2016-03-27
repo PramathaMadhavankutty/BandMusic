@@ -26,7 +26,6 @@ body{
 	width:100%;
 	max-width: 100%;
   position: relative;
-
   display:block;
 }
 .jumbotron {
@@ -38,28 +37,23 @@ body{
 	background-color:#ffcccc;
 	
 }
-.slider {
-    width:100%;
-    height:100%;
-    display:block;
-    padding:0px;
-    background: inherit;
-    background-position:top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    margin-top:0;
-    position: absolute;
-    top:0;
-    left: 0;
-     
-}
+
 .text-container{
   text-align: justify; 
 }
+
+.row .team{
+  padding-top: 50px;
+  min-height: 200px;
+}
 .details .para{
   text-align: justify;
+
 }
+.details h3{
+  font-weight: bold;
+}
+
 .image {
   width:500px;
   height:310px;
@@ -90,3 +84,133 @@ body{
   width:250px;
   height:175px;
  }
+ .slider_container{
+  display: block;    
+  flex-flow: row wrap;  
+  box-sizing:border-box;
+  position:relative;
+  width:100%;
+  height:25%;
+}
+.slider {
+    width:100%;
+    height:100%;
+    display:block;
+    padding:3px;
+
+    background: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:5px;
+    position: absolute;
+    top:0;
+    left: 0;
+     
+}
+.slider.flex-img{
+  height:450px;
+  width:700px;
+}
+.subs{
+  display:block;
+  flex-flow:row wrap;  
+  box-sizing:border-box;    
+  position:relative;
+  width:100%;
+  height:50%;
+}
+.subs .srow{
+  display:block;
+  margin-left:2px;
+  position:relative;
+  bottom: 0px;
+  padding:5px;
+  text-align: center;
+  background-color:#cce6ff;
+  border:4px solid #cce6ff ;
+  width:50%;
+}
+
+.big-btn{
+padding: 10px 0px 11px 0px;
+width: 235px;
+margin-top:5px;
+}
+
+.big-btn i{
+font-size: 65px;
+margin-right: 0px !important;
+}
+.big-btn strong{
+font-size: 20px;
+text-shadow: 1px 2px 0px #34659B;
+color: #fff;
+line-height: 24px;
+}
+.big-btn .btn-text{
+margin-top:6px;
+}
+
+.big-btn small{font-size: 75%;}
+
+.android-btn{
+
+width: 235px;
+padding: 13px 17px 13px 0px;
+background-color: #000;
+border-color: #000;
+
+}
+.android-btn:hover{
+background-color: #272727;
+}
+
+.android-btn i{
+font-size: 55px;
+}
+
+.android-btn .btn-text{
+margin-top: 0px;
+}
+
+.android-btn strong{
+font-size: 20px;
+text-shadow: none;
+color: #fff;
+line-height: 24px;
+}
+
+.windows-btn{
+background-color:#008A00;
+width: 235px;
+padding: 13px 5px 13px 10px;
+border-color: #055805;
+}
+
+.windows-btn:hover{
+background-color: #008A00;
+}
+.windows-btn .btn-text{
+text-shadow: none;
+font-size: 26px;
+line-height: 25px;
+}
+
+div .table-responsive{
+  display:block;
+  padding-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  width: 75%;
+  height:100%;
+}
+div .head{
+  padding-top:75px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #000066;
+  font-weight: bolder;
+}

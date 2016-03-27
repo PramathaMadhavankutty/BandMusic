@@ -12,6 +12,8 @@
         loadSliderImages: loadSliderImages,
         loadImages:loadImages,
         loadVideos:loadVideos
+        
+        
     }
     
     function loadSliderImages(){
@@ -40,6 +42,8 @@
               return response.data;
             });
     }
+  
+    
   }
   
 })();

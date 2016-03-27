@@ -12,11 +12,7 @@
       'ngRoute',
       'ui.bootstrap',
       'toastr',
-      'angular-flexslider',
-      'ngAudio'
-      
-     
-      
-    ]);
+      'angular-flexslider'
+ ]);
 
 })();

@@ -1,0 +1,48 @@
+[{
+    "title": "Accessories",
+    "products": [{
+        "id": 0,
+        "name": "Clarksville Top",
+        "icon": "assets-band/assets/images/band.jpg",
+        "price":"$50"
+    }, {
+        "id": 1,
+        "name": "Clarksville Top1",
+        "icon": "assets-band/assets/images/band.jpg",
+        "price":"$150"
+    }, {
+        "id": 2,
+        "name": "Clarksville Top2",
+        "icon": "assets-band/assets/images/band.jpg",
+        "price":"$250"
+    }, {
+        "id": 3,
+        "name": "Clarksville Top3",
+        "icon": "assets-band/assets/images/band.jpg",
+        "price":"$350"
+    }]
+}, {
+    "title": "Men",
+    "products": [{
+        "id": 0,
+        "name": "Clarksville Top",
+        "icon": "assets-band/assets/images/nband1.jpg",
+        "price":"$50"
+    }, {
+        "id": 1,
+        "name": "Clarksville Top1",
+        "icon": "assets-band/assets/images/nband1.jpg",
+        "price":"$150"
+    }, {
+        "id": 2,
+        "name": "Clarksville Top2",
+        "icon": "assets-band/assets/images/nband1.jpg",
+        "price":"$250"
+    }, {
+        "id": 3,
+        "name": "Clarksville Top3",
+        "icon": "assets-band/assets/images/nband1.jpg",
+        "price":"$350"
+    }]
+
+}]

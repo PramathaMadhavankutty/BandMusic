@@ -1,17 +1,65 @@
 <div>
     <acme-navbar></acme-navbar>
 </div>
-<div class="container">
+<div class="slider_container">
 <div class="slider">
   <flex-slider  flex-slide="image in vm.images" >
     <li>
-      <img ng-src="{{image}}">
+      <img class="flex-img" ng-src="{{image}}">
     </li>
   </flex-slider>
 </div>
-
 </div>
-   
+<div class="subs  ">
+	<div class=" col-md-6">
+	<div class="srow">
+		
+	<h2>Next Show</h2> 
+	<p><strong>Date:	10/06/2016</strong><br>
+	<strong>Venue:	Festival-De-Les Arts</strong><br></p>
+	<button class="btn btn-primary" ng-click="vm.go()">Get Ticket</button></div>
+	</div>
+	<div class=" col-md-6"> 
+	<div class="srow">
+
+	<h2>Get Mobile App</h2>
+	<div class="row">
+       
+       
+           <!-- apple store button -->
+                <a class="btn btn-lg btn-primary big-btn" href="https://itunes.apple.com/ie/app/apple-store/id375380948?mt=8">
+  				<i class="glyphicon glyphicon-phone pull-left"></i><div class="btn-text"><small>Available on the</small><br><strong>App Store</strong></div></a><br>
+            <!-- android button -->
+  				<a class="btn btn-lg btn-success big-btn android-btn" href="https://play.google.com/store?hl=en">
+  				<img width="80px" class="pull-left" src="http://www.userlogos.org/files/logos/jumpordie/google_play_04.png"><div class="btn-text"><small>Available on</small><br><strong>Google Play</strong></div></a><br>
+            <!-- windows store button -->
+                <a class="btn btn-lg btn-success big-btn windows-btn" href="https://www.microsoft.com/en-us/windows/apps-and-games">
+  				<img width="60px" class="pull-left" src="http://1.bp.blogspot.com/-rD2_M6Vvv6w/UbmywLq5V8I/AAAAAAAACko/BEcR4QqtkRI/s1600/Windows%2BStore%2BLogo.png"><div class="btn-text">Windows<br>Store</div></a>
+                   
+            
+    
+
+	<!--<button class="btn btn-primary" ng-click="vm.go()">Subscribe</button><br><br>
+	<button class="btn btn-primary" ng-click="vm.go()">Subscribe</button>-->
+</div>
+	</div>
+</div>
+	
+	<!--<div class="col-md-6">
+	<h2>Book shows</h2> 
+	<button class="btn btn-primary" ng-click="vm.go()">Subscribe</button>
+	</div>
+
+	<div class="col-md-6">
+	<h2>Get Our Mobile App</h2> 
+	<button class="btn btn-primary" ng-click="vm.go()">Subscribe</button>
+	<br>
+	<br>
+	<button class="btn btn-primary" ng-click="vm.go()">Subscribe</button>
+	</div>-->
+
+
+
 
   
 
