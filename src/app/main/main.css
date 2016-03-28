@@ -89,6 +89,21 @@ text-shadow: none;
 color: #fff;
 line-height: 24px;
 }
+div .footer{
+   padding-top: 20px;
+   height:5em;
+
+
+}
+footer #footer-bottom{
+  color:black;
+  text-align: center;
+  font-weight: normal;
+  font-size: 15px;
+  
+  background-color: #b3b3b3;
+
+}
 
 @media (min-width: 1200px) {
   .slider_container {
