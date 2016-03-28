@@ -41,20 +41,89 @@
   background-color: #cce6ff;
   border: 4px solid #cce6ff;
 }
+.big-btn{
+padding: 10px 0px 11px 0px;
+width: 235px;
+margin-top:5px;
+}
+
+.big-btn i{
+font-size: 65px;
+margin-right: 0px !important;
+}
+.big-btn strong{
+font-size: 20px;
+text-shadow: 1px 2px 0px #34659B;
+color: #fff;
+line-height: 24px;
+}
+.big-btn .btn-text{
+margin-top:6px;
+}
+
+.big-btn small{font-size: 75%;}
+
+.android-btn{
+
+width: 235px;
+padding: 13px 17px 13px 0px;
+background-color: #000;
+border-color: #000;
+
+}
+.android-btn:hover{
+background-color: #272727;
+}
+
+.android-btn i{
+font-size: 55px;
+}
+
+.android-btn .btn-text{
+margin-top: 0px;
+}
+
+.android-btn strong{
+font-size: 20px;
+text-shadow: none;
+color: #fff;
+line-height: 24px;
+}
 
 @media (min-width: 1200px) {
   .slider_container {
     width: 100%;
     height: 658.125px;
+    position:relative;
   }
+  .subs {
+  display: flex;
+  flex-flow:row wrap;
+  box-sizing: border-box;
+  position: relative;
+  padding-top:5em;
+  width: 100%;
+  height: 50%;
+}
+  
  
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .slider_container {
     width: 940px;
-    height: 528.75px;
+    height: 328.75px;
+     position:relative;
   }
+  .subs {
+  display: block;
+  
+  box-sizing: border-box;
+  position: relative;
+ 
+  width: 100%;
+  height: 50%;
+}
   
 }
 
@@ -62,5 +131,17 @@
   .slider_container {
     width: 728px;
     height: 409.5px;
+     position:relative;
   }
+   .subs {
+  display: block;
+ 
+  box-sizing: border-box;
+  position: relative;
+ margin-top:150px;
+  padding-top: 100em;
+  width: 100%;
+  height: 50%;
+}
+   
 }

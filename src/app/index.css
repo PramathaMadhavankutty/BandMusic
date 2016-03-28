@@ -86,54 +86,7 @@ body{
  }
 
 
-.big-btn{
-padding: 10px 0px 11px 0px;
-width: 235px;
-margin-top:5px;
-}
 
-.big-btn i{
-font-size: 65px;
-margin-right: 0px !important;
-}
-.big-btn strong{
-font-size: 20px;
-text-shadow: 1px 2px 0px #34659B;
-color: #fff;
-line-height: 24px;
-}
-.big-btn .btn-text{
-margin-top:6px;
-}
-
-.big-btn small{font-size: 75%;}
-
-.android-btn{
-
-width: 235px;
-padding: 13px 17px 13px 0px;
-background-color: #000;
-border-color: #000;
-
-}
-.android-btn:hover{
-background-color: #272727;
-}
-
-.android-btn i{
-font-size: 55px;
-}
-
-.android-btn .btn-text{
-margin-top: 0px;
-}
-
-.android-btn strong{
-font-size: 20px;
-text-shadow: none;
-color: #fff;
-line-height: 24px;
-}
 
 .windows-btn{
 background-color:#008A00;
