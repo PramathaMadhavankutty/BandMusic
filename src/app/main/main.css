@@ -25,5 +25,11 @@
 	position:absolute;
 	top:550px;
     left:10px;
+    width:105%;
+
    
+}
+.subs .srow{
+    display:flex;
+    flex-flow:column wrap;
 }

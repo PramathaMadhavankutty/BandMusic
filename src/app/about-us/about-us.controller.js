@@ -13,7 +13,7 @@
     vm.members = [{
       "avatar": "assets-band/assets/images/daniel1.jpg",
       "fullName": "DANIEL DE LOS REYES",
-      "bio":"Where to start... I have been playing drum set and percussion instruments as far back as I can remember. I think I was probably banging inside my mother's womb until she could stand it no more and said :you're out of there like an umpire in a baseball game. But on a serious note, from the day I was born I heard many different styles and rhythms of music due to the love my parents have for music. My mother is Puerto Rican/American and my father is Cuban/American. I clearly remember my mother always singing beautiful Puerto Rican melodies to us all the time when we were growing up.",
+      "bio":"Where to start... I have been playing drum set and percussion instruments as far back as I can remember. I think I was probably banging inside my mother's womb until she could stand it no more and said :you're out of there like an umpire in a baseball game. But on a serious note, from the day I was born I heard many different styles and rhythms of music due to the love my parents have for music. My mother is Puerto Rican/American and my father is Cuban/American. I clearly remember my mother always singing beautiful Puerto Rican melodies to us all the time when we were growing up."
       
     }, {
       "avatar":"assets-band/assets/images/jimmy.jpg",
@@ -23,7 +23,7 @@
     },{
       "avatar": "assets-band/assets/images/bowles1.jpg",
       "fullName": "COY BOWLES",
-      "bio": "When I was a kid, I had a room that was next to my bedroom at my parent’s house. Actually, it was part of the attic. It was my world and secret passageway into music and all things creative and awesome. The walls were filled with photos of my favorite bands, musicians, and skateboarders that had been ripped out of magazines and stuck to the wall with thumbtacks and Scotch tape.There was a hammock in this musical, isolation chamber that was filled with sleeping bags and old pillows. I would sit in the hammock and listen to music everyday. I would sing as loud as I could and fill my body with music.",
+      "bio": "When I was a kid, I had a room that was next to my bedroom at my parent’s house. Actually, it was part of the attic. It was my world and secret passageway into music and all things creative and awesome. The walls were filled with photos of my favorite bands, musicians, and skateboarders that had been ripped out of magazines and stuck to the wall with thumbtacks and Scotch tape.There was a hammock in this musical, isolation chamber that was filled with sleeping bags and old pillows. I would sit in the hammock and listen to music everyday. I would sing as loud as I could and fill my body with music."
     
     },{
       "avatar": "assets-band/assets/images/cook2.jpg",

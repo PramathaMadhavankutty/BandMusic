@@ -1,12 +1,10 @@
 <div class="musicPlaylist container">
 	<div class="col-md-4">
-		<!--<img video="true" class="img-responsive" src="assets-band/assets/images/band.jpg">
-        <br>
-        <h2>Clarksville</h2>-->
+		
 		<audio ng-show="player.isAudio && player.activeTrack" controls>
 			<source ng-src="{{player.activeTrack.url}}" type="audio/mpeg">
 		</audio>
-		<video ng-show="player.isVideo && player.activeTrack" controls>
+		<video class="video-container" ng-show="player.isVideo && player.activeTrack" controls>
 			<source ng-src="{{player.activeTrack.url}}" type="video/mp4">
 
 		</video>

@@ -16,7 +16,7 @@
         vm.images = images;
       });
     vm.go = function(){
-      $location.path("/signup");
+      $location.path("/gigs");
     }
   }
 

@@ -7,7 +7,7 @@
 
   /** @ngInject */
 
-  function GigsController($location) {
+  function GigsController() {
     var vm = this;
     vm.shows = [{
 
