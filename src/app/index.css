@@ -112,10 +112,11 @@ body{
   width:700px;
 }
 .subs{
-  display:block;
+  display:flex;
   flex-flow:row wrap;  
   box-sizing:border-box;    
   position:relative;
+  padding-top:35em;
   width:100%;
   height:50%;
 }

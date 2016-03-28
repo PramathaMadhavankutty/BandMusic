@@ -1,4 +1,4 @@
-.slider_container{
+/*.slider_container{
 	display: flex;    
 	flex-flow: row wrap;  
 	box-sizing:border-box;
@@ -19,17 +19,5 @@
     top:0;
     left: 0;
      
-}
-.subs{
-	display: block;    
-	position:absolute;
-	top:550px;
-    left:10px;
-    width:105%;
+}*/
 
-   
-}
-.subs .srow{
-    display:flex;
-    flex-flow:column wrap;
-}
