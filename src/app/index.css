@@ -1,6 +1,6 @@
 body{
-  padding-top: 50px;
-    padding-bottom: 20px;
+  padding-top: 0px;
+    padding-bottom: 0px;
   }
   .browsehappy {
   margin: 0.2em 0;
@@ -42,7 +42,7 @@ body{
   text-align: justify; 
 }
 
-.row .team{
+.team{
   padding-top: 50px;
   min-height: 200px;
 }
@@ -71,10 +71,7 @@ body{
   border: 4px solid #000;
   padding: 50px;
  }
- .row h2{
-  color: #fff;
-  font-weight: bold;
- }
+
  .card_image{
   border: 15px solid #fff;
   display: flex;    
@@ -84,25 +81,6 @@ body{
   width:250px;
   height:175px;
  }
-
-
-
-
-.windows-btn{
-background-color:#008A00;
-width: 235px;
-padding: 13px 5px 13px 10px;
-border-color: #055805;
-}
-
-.windows-btn:hover{
-background-color: #008A00;
-}
-.windows-btn .btn-text{
-text-shadow: none;
-font-size: 26px;
-line-height: 25px;
-}
 
 div .table-responsive{
   display:block;

@@ -36,3 +36,9 @@ acme-navbar .container{
         font-size: 1.5em;
     }
 }
+
+@media (max-width:768px) {
+    .navbar-collapse{
+        background-color: #333;
+    }
+}
