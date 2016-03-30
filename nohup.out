@@ -1,0 +1,447 @@
+
+> bandMusic@0.0.0 start /home/ec2-user/BandMusic
+> gulp serve
+
+[20:02:34] Using gulpfile ~/BandMusic/gulpfile.js
+[20:02:34] Starting 'scripts'...
+[20:02:35] 
+/home/ec2-user/BandMusic/src/app/components/musicPlaylist/musicPlaylist.directive.js
+  43:22  warning  You should use angular.element instead of the jQuery $ object  angular/angularelement
+  43:22  error    "$" is not defined                                             no-undef
+
+✖ 2 problems (1 error, 1 warning)
+
+[20:02:35] all files 25.9 kB
+[20:02:35] Finished 'scripts' after 1.13 s
+[20:02:35] Starting 'inject'...
+[20:02:35] gulp-inject 9 files into index.html.
+[20:02:35] gulp-inject 19 files into index.html.
+[20:02:35] Finished 'inject' after 167 ms
+[20:02:35] Starting 'watch'...
+[20:02:35] Finished 'watch' after 48 ms
+[20:02:35] Starting 'serve'...
+[20:02:35] Finished 'serve' after 28 ms
+[BS] [BrowserSync SPA] Running...
+[BS] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:8080/
+    External: http://172.31.44.222:8080/
+ ---------------------------------------
+          UI: http://localhost:8081
+ UI External: http://172.31.44.222:8081
+ ---------------------------------------
+[BS] Serving files from: .tmp/serve
+[BS] Serving files from: src
+
+> bandMusic@0.0.0 start /home/ec2-user/BandMusic
+> gulp serve
+
+[20:07:32] Using gulpfile ~/BandMusic/gulpfile.js
+[20:07:32] Starting 'scripts'...
+[20:07:33] 
+/home/ec2-user/BandMusic/src/app/components/musicPlaylist/musicPlaylist.directive.js
+  43:22  warning  You should use angular.element instead of the jQuery $ object  angular/angularelement
+  43:22  error    "$" is not defined                                             no-undef
+
+✖ 2 problems (1 error, 1 warning)
+
+[20:07:33] all files 25.9 kB
+[20:07:33] Finished 'scripts' after 1.12 s
+[20:07:33] Starting 'inject'...
+[20:07:33] gulp-inject 9 files into index.html.
+[20:07:33] gulp-inject 19 files into index.html.
+[20:07:33] Finished 'inject' after 162 ms
+[20:07:33] Starting 'watch'...
+[20:07:33] Finished 'watch' after 47 ms
+[20:07:33] Starting 'serve'...
+[20:07:33] Finished 'serve' after 27 ms
+[BS] [BrowserSync SPA] Running...
+[BS] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:8080/
+    External: http://172.31.44.222:8080/
+ ---------------------------------------
+          UI: http://localhost:8081
+ UI External: http://172.31.44.222:8081
+ ---------------------------------------
+[BS] Serving files from: .tmp/serve
+[BS] Serving files from: src
+
+> bandMusic@0.0.0 start /home/ec2-user/BandMusic
+> gulp serve
+
+[20:07:53] Using gulpfile ~/BandMusic/gulpfile.js
+[20:07:53] Starting 'scripts'...
+[20:07:55] 
+/home/ec2-user/BandMusic/src/app/components/musicPlaylist/musicPlaylist.directive.js
+  43:22  warning  You should use angular.element instead of the jQuery $ object  angular/angularelement
+  43:22  error    "$" is not defined                                             no-undef
+
+✖ 2 problems (1 error, 1 warning)
+
+[20:07:55] all files 25.9 kB
+[20:07:55] Finished 'scripts' after 1.12 s
+[20:07:55] Starting 'inject'...
+[20:07:55] gulp-inject 9 files into index.html.
+[20:07:55] gulp-inject 19 files into index.html.
+[20:07:55] Finished 'inject' after 163 ms
+[20:07:55] Starting 'watch'...
+[20:07:55] Finished 'watch' after 49 ms
+[20:07:55] Starting 'serve'...
+[20:07:55] Finished 'serve' after 28 ms
+[BS] [BrowserSync SPA] Running...
+[BS] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:8080/
+    External: http://172.31.44.222:8080/
+ ---------------------------------------
+          UI: http://localhost:8081
+ UI External: http://172.31.44.222:8081
+ ---------------------------------------
+[BS] Serving files from: .tmp/serve
+[BS] Serving files from: src
+
+> bandMusic@0.0.0 start /home/ec2-user/BandMusic
+> gulp serve
+
+[20:17:09] Using gulpfile ~/BandMusic/gulpfile.js
+[20:17:09] Starting 'scripts'...
+[20:17:10] 
+/home/ec2-user/BandMusic/src/app/components/musicPlaylist/musicPlaylist.directive.js
+  43:22  warning  You should use angular.element instead of the jQuery $ object  angular/angularelement
+  43:22  error    "$" is not defined                                             no-undef
+
+✖ 2 problems (1 error, 1 warning)
+
+[20:17:10] all files 25.9 kB
+[20:17:10] Finished 'scripts' after 1.11 s
+[20:17:10] Starting 'inject'...
+[20:17:10] gulp-inject 9 files into index.html.
+[20:17:11] gulp-inject 19 files into index.html.
+[20:17:11] Finished 'inject' after 164 ms
+[20:17:11] Starting 'watch'...
+[20:17:11] Finished 'watch' after 47 ms
+[20:17:11] Starting 'serve'...
+[20:17:11] Finished 'serve' after 28 ms
+[BS] [BrowserSync SPA] Running...
+[BS] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:8080/
+    External: http://172.31.44.222:8080/
+ ---------------------------------------
+          UI: http://localhost:8081
+ UI External: http://172.31.44.222:8081
+ ---------------------------------------
+[BS] Serving files from: .tmp/serve
+[BS] Serving files from: src
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/components/navbar/navbar.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/components/navbar/navbar.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/components/navbar/navbar.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/index.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/gigs/gigs.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/login/login.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.css
+[BS] File changed: /home/ec2-user/BandMusic/src/app/index.css
+
+> bandMusic@0.0.0 start /home/ec2-user/BandMusic
+> gulp serve
+
+[07:36:18] Using gulpfile ~/BandMusic/gulpfile.js
+[07:36:18] Starting 'scripts'...
+[07:36:19] 
+/home/ec2-user/BandMusic/src/app/components/musicPlaylist/musicPlaylist.directive.js
+  43:22  warning  You should use angular.element instead of the jQuery $ object  angular/angularelement
+  43:22  error    "$" is not defined                                             no-undef
+
+✖ 2 problems (1 error, 1 warning)
+
+[07:36:19] all files 25.9 kB
+[07:36:19] Finished 'scripts' after 1.12 s
+[07:36:19] Starting 'inject'...
+[07:36:19] gulp-inject 9 files into index.html.
+[07:36:19] gulp-inject 19 files into index.html.
+[07:36:19] Finished 'inject' after 162 ms
+[07:36:19] Starting 'watch'...
+[07:36:19] Finished 'watch' after 47 ms
+[07:36:19] Starting 'serve'...
+[07:36:19] Finished 'serve' after 27 ms
+[BS] [BrowserSync SPA] Running...
+[BS] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:8080/
+    External: http://172.31.44.222:8080/
+ ---------------------------------------
+          UI: http://localhost:8081
+ UI External: http://172.31.44.222:8081
+ ---------------------------------------
+[BS] Serving files from: .tmp/serve
+[BS] Serving files from: src
+
+> bandMusic@0.0.0 start /home/ec2-user/BandMusic
+> gulp serve
+
+[08:35:53] Using gulpfile ~/BandMusic/gulpfile.js
+[08:35:53] Starting 'scripts'...
+[08:35:54] 
+/home/ec2-user/BandMusic/src/app/components/musicPlaylist/musicPlaylist.directive.js
+  43:22  warning  You should use angular.element instead of the jQuery $ object  angular/angularelement
+  43:22  error    "$" is not defined                                             no-undef
+
+✖ 2 problems (1 error, 1 warning)
+
+[08:35:54] all files 25.9 kB
+[08:35:54] Finished 'scripts' after 1.1 s
+[08:35:54] Starting 'inject'...
+[08:35:54] gulp-inject 9 files into index.html.
+[08:35:54] gulp-inject 19 files into index.html.
+[08:35:54] Finished 'inject' after 162 ms
+[08:35:54] Starting 'watch'...
+[08:35:54] Finished 'watch' after 46 ms
+[08:35:54] Starting 'serve'...
+[08:35:54] Finished 'serve' after 27 ms
+[BS] [BrowserSync SPA] Running...
+[BS] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:8080/
+    External: http://172.31.44.222:8080/
+ ---------------------------------------
+          UI: http://localhost:8081
+ UI External: http://172.31.44.222:8081
+ ---------------------------------------
+[BS] Serving files from: .tmp/serve
+[BS] Serving files from: src
+
+> bandMusic@0.0.0 start /home/ec2-user/BandMusic
+> gulp serve
+
+[12:09:30] Using gulpfile ~/BandMusic/gulpfile.js
+[12:09:30] Starting 'scripts'...
+[12:09:31] 
+/home/ec2-user/BandMusic/src/app/components/musicPlaylist/musicPlaylist.directive.js
+  43:22  warning  You should use angular.element instead of the jQuery $ object  angular/angularelement
+  43:22  error    "$" is not defined                                             no-undef
+
+✖ 2 problems (1 error, 1 warning)
+
+[12:09:31] all files 25.9 kB
+[12:09:31] Finished 'scripts' after 1.14 s
+[12:09:31] Starting 'inject'...
+[12:09:32] gulp-inject 10 files into example.html.
+[12:09:32] gulp-inject 10 files into index.html.
+[12:09:32] gulp-inject 10 files into navbar.html.
+[12:09:32] gulp-inject 19 files into example.html.
+[12:09:32] gulp-inject 19 files into index.html.
+[12:09:32] gulp-inject 19 files into navbar.html.
+[12:09:32] Finished 'inject' after 212 ms
+[12:09:32] Starting 'watch'...
+[12:09:32] Finished 'watch' after 47 ms
+[12:09:32] Starting 'serve'...
+[12:09:32] Finished 'serve' after 28 ms
+[BS] [BrowserSync SPA] Running...
+[BS] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:8080/
+    External: http://172.31.44.222:8080/
+ ---------------------------------------
+          UI: http://localhost:8081
+ UI External: http://172.31.44.222:8081
+ ---------------------------------------
+[BS] Serving files from: .tmp/serve
+[BS] Serving files from: src
+
+> bandMusic@0.0.0 start /home/ec2-user/BandMusic
+> gulp serve
+
+[15:07:40] Using gulpfile ~/BandMusic/gulpfile.js
+[15:07:40] Starting 'scripts'...
+[15:07:41] 
+/home/ec2-user/BandMusic/src/app/components/musicPlaylist/musicPlaylist.directive.js
+  43:22  warning  You should use angular.element instead of the jQuery $ object  angular/angularelement
+  43:22  error    "$" is not defined                                             no-undef
+
+✖ 2 problems (1 error, 1 warning)
+
+[15:07:41] all files 25.9 kB
+[15:07:41] Finished 'scripts' after 1.13 s
+[15:07:41] Starting 'inject'...
+[15:07:41] gulp-inject 10 files into example.html.
+[15:07:41] gulp-inject 10 files into index.html.
+[15:07:41] gulp-inject 10 files into navbar.html.
+[15:07:41] gulp-inject 19 files into example.html.
+[15:07:41] gulp-inject 19 files into index.html.
+[15:07:41] gulp-inject 19 files into navbar.html.
+[15:07:41] Finished 'inject' after 201 ms
+[15:07:41] Starting 'watch'...
+[15:07:41] Finished 'watch' after 47 ms
+[15:07:41] Starting 'serve'...
+[15:07:41] Finished 'serve' after 28 ms
+[BS] [BrowserSync SPA] Running...
+[BS] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:8080/
+    External: http://172.31.44.222:8080/
+ ---------------------------------------
+          UI: http://localhost:8081
+ UI External: http://172.31.44.222:8081
+ ---------------------------------------
+[BS] Serving files from: .tmp/serve
+[BS] Serving files from: src
+
+> bandMusic@0.0.0 start /home/ec2-user/BandMusic
+> gulp serve
+
+[15:08:31] Using gulpfile ~/BandMusic/gulpfile.js
+[15:08:31] Starting 'scripts'...
+[15:08:32] 
+/home/ec2-user/BandMusic/src/app/components/musicPlaylist/musicPlaylist.directive.js
+  43:22  warning  You should use angular.element instead of the jQuery $ object  angular/angularelement
+  43:22  error    "$" is not defined                                             no-undef
+
+✖ 2 problems (1 error, 1 warning)
+
+[15:08:32] all files 25.9 kB
+[15:08:32] Finished 'scripts' after 1.11 s
+[15:08:32] Starting 'inject'...
+[15:08:32] gulp-inject 10 files into example.html.
+[15:08:32] gulp-inject 10 files into index.html.
+[15:08:32] gulp-inject 10 files into navbar.html.
+[15:08:32] gulp-inject 19 files into example.html.
+[15:08:32] gulp-inject 19 files into index.html.
+[15:08:32] gulp-inject 19 files into navbar.html.
+[15:08:32] Finished 'inject' after 208 ms
+[15:08:32] Starting 'watch'...
+[15:08:32] Finished 'watch' after 49 ms
+[15:08:32] Starting 'serve'...
+[15:08:32] Finished 'serve' after 28 ms
+[BS] [BrowserSync SPA] Running...
+[BS] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:8080/
+    External: http://172.31.44.222:8080/
+ ---------------------------------------
+          UI: http://localhost:8081
+ UI External: http://172.31.44.222:8081
+ ---------------------------------------
+[BS] Serving files from: .tmp/serve
+[BS] Serving files from: src
+
+> bandMusic@0.0.0 start /home/ec2-user/BandMusic
+> gulp serve
+
+[15:50:07] Using gulpfile ~/BandMusic/gulpfile.js
+[15:50:07] Starting 'scripts'...
+[15:50:08] 
+/home/ec2-user/BandMusic/src/app/components/musicPlaylist/musicPlaylist.directive.js
+  43:22  warning  You should use angular.element instead of the jQuery $ object  angular/angularelement
+  43:22  error    "$" is not defined                                             no-undef
+
+✖ 2 problems (1 error, 1 warning)
+
+[15:50:08] all files 25.9 kB
+[15:50:08] Finished 'scripts' after 1.11 s
+[15:50:08] Starting 'inject'...
+[15:50:08] gulp-inject 10 files into example.html.
+[15:50:08] gulp-inject 10 files into index.html.
+[15:50:08] gulp-inject 10 files into navbar.html.
+[15:50:08] gulp-inject 19 files into example.html.
+[15:50:08] gulp-inject 19 files into index.html.
+[15:50:08] gulp-inject 19 files into navbar.html.
+[15:50:08] Finished 'inject' after 200 ms
+[15:50:08] Starting 'watch'...
+[15:50:08] Finished 'watch' after 48 ms
+[15:50:08] Starting 'serve'...
+[15:50:08] Finished 'serve' after 27 ms
+[BS] [BrowserSync SPA] Running...
+[BS] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:8080/
+    External: http://172.31.44.222:8080/
+ ---------------------------------------
+          UI: http://localhost:8081
+ UI External: http://172.31.44.222:8081
+ ---------------------------------------
+[BS] Serving files from: .tmp/serve
+[BS] Serving files from: src
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
+[BS] File changed: /home/ec2-user/BandMusic/src/app/main/main.html
