@@ -1,8 +1,14 @@
-div .head{
+.head{
 	padding:75px;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
-	font-family: Verdana;
+	font-family: Droid Serif;
 	font-weight: bolder;
+	background-color: black;
+
+	
+}
+section h1{
+	color: #fff;
 }

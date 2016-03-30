@@ -4,13 +4,17 @@
 	</div>
 	<section class="flex-container">
 		<div class="row">
-			<flex-slider flex-slide="image in vm.images">
-				<li>
-					<img class="flex-img" ng-src="{{image}}">
-				</li>
-			</flex-slider>
+			<div class="col-md-12">
+				<flex-slider flex-slide="image in vm.images">
+					<li>
+						<img class="flex-img" ng-src="{{image}}">
+					</li>
+
+				</flex-slider>
+			</div>
 		</div>
 	</section>
+
 
 	<section class="mobile-app">
 		<div class="row">
@@ -66,7 +70,8 @@
 			</div>
 		</div>
 	</section>
-
+</div>
+<div class="container">
 	<section class="footer">
 		<div class="row">
 			<footer>

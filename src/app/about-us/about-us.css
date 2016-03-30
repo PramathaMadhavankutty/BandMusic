@@ -1,0 +1,19 @@
+.team {
+  padding-top: 50px;
+  min-height: 200px;
+}
+
+.para{
+  text-align: justify;
+}
+
+h3{
+  font-weight: bold;
+}
+
+.image {
+  width: 500px;
+  height: 310px;
+  margin: 10px;
+  padding: 10px;
+}

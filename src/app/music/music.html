@@ -1,31 +1,17 @@
 <div>
     <acme-navbar></acme-navbar>
 </div>
-<div class="container">
-    <div id="nav" class="nav navbar-nav">
-        <ul class="nav navbar-nav">
-            <li><a href="#/gallery">Images</a>
-            </li>
-            <li><a href="#/music">Music</a>
-            </li>
-            <li><a href="#/videos">Videos</a>
-            </li>
-        </ul>
-
-    </div>
-</div> 
 
 <div class="container album">
-    
-<div class="row col-md-4" ng-repeat="album in music.albums">
-    <div>
-        <img class="card_image img-responsive" ng-src="{{album.cover}}">
-        <br>
-        <h2>{{album.title}}</h2>
-    </div> 
-    <div>
-        <music-playlist list="album.audios"></music-playlist>
-     </div>
-</div>
 
+    <div class="row col-md-4" ng-repeat="album in music.albums">
+        <div>
+            <img class="card_image img-responsive" ng-src="{{album.cover}}">
+            <br>
+            <h2 style="color:#997a00;">{{album.title}}</h2>
+        </div>
+        <div>
+            <music-playlist list="album.audios"></music-playlist>
+        </div>
+    </div>
 </div>

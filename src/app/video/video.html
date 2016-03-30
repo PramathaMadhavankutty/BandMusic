@@ -1,23 +1,13 @@
 <div>
     <acme-navbar></acme-navbar>
 </div>
+
 <div class="container">
-    <div id="nav" class="nav navbar-nav">
-        <ul class="nav navbar-nav">
-            <li><a href="#/gallery">Images</a>
-            </li>
-            <li><a href="#/music">Music</a>
-            </li>
-            <li><a href="#/videos">Videos</a>
-            </li>
-        </ul>
+    <section class="video-container">
 
-    </div>
-</div> 
-<div id="video-container">
+        <div class="row">
+            <music-playlist list="video.videos" type="video"></music-playlist>
+        </div>
 
-<music-playlist list="video.videos" type="video"></music-playlist>
-</div>
-<div>
-    <acme-footer></acme-footer>
+    </section>
 </div>

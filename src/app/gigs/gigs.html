@@ -3,10 +3,42 @@
     <div>
         <acme-navbar></acme-navbar>
     </div>
-    <div class="head">
-    <h1>Live Events</h1>
-</div>
-   <div class="table-responsive " >
+    <section class="head">
+        <div class="row">
+            <h1>Live Events</h1>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+
+            <table class="table panel">
+                <thead>
+                    <tr>
+                        <th class="col-md-3">Date</th>
+                        <th class="col-md-3">Venue</th>
+                        <th class="col-md-3">Location</th>
+                        <th class="col-md-3">Tickets</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="show in vm.shows">
+                        <td class="col-md-3">{{ show.date }}</td>
+                        <td class="col-md-3">{{ show.venue }}</td>
+                        <td class="col-md-3">{{ show.location }}</td>
+                        <td class="col-md-3">
+                            <button class="btn">
+                                <a ng-href="{{show.ticketUrl}}">Get Tickets</a>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+    </div>
+    <!--<div class="table-responsive " >
        
         <table class="table panel">
             <thead>
@@ -30,8 +62,7 @@
                 </tr>
             </tbody>
         </table>
-    </div>
-   
-   
+    </div>-->
+
+
 </div>
- 

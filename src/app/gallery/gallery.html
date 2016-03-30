@@ -3,25 +3,9 @@
   <div>
     <acme-navbar></acme-navbar>
   </div>
-  	<div id ="nav" class="nav navbar-nav">
-            <ul class="nav navbar-nav navbar-center">
-                <li><a href="#/gallery">Images</a>
-                </li>
-                <li><a href="#/music">Music</a>
-                </li>
-                <li><a href="#/videos">Videos</a>
-                </li>
-            </ul>
-    </div>
-       </div> 
-  	
-    <div class="img-container">
-    <div class="image-row" >
-            <img class="img-responsive image col-md-6" ng-repeat="pic in vm.pics" ng-src="{{pic}}" />
-    	</div>
-      </div>
-          
-    
-  			
-
-  			
+  <section class="pic-container">
+  <div class="row">
+    <img class="col-md-6 pic" ng-repeat="pic in vm.pics" ng-src="{{pic}}" />
+  </div>
+</section>
+</div>

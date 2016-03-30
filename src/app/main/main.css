@@ -1,6 +1,3 @@
-.flex-container{
-  background-color: #000;
-}
 
 .mobile-app{
   background-color: #4d4d4d;
@@ -17,7 +14,8 @@
 .content{
   text-align: center;
   color:#fff;
-  padding-bottom: 3px;
+  padding-top: 1px;
+  padding-bottom:5px;
 }
 .footer{
   background-color:#0d0d0d;
@@ -81,65 +79,8 @@
   line-height: 24px;
 }
 
-/*.container>footer {
-
+.flex-container{
  
-}
-
-footer #footer-bottom {
-  color: black;
-  text-align: center;
-  font-weight: normal;
-  font-size: 15px;
- 
-}*/
-
-@media (min-width: 1200px) {
-  .slider_container {
-    width: 100%;
-    height: 658.125px;
-    position: relative;
-  }
-  .subs {
-    display: flex;
-    flex-flow: row wrap;
-    box-sizing: border-box;
-    position: relative;
-    padding-top: 5em;
-    width: 100%;
-    height: 50%;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  .slider_container {
-    width: 940px;
-    height: 328.75px;
-    position: relative;
-  }
-  .subs {
-    display: block;
-    box-sizing: border-box;
-    position: relative;
-    padding-top: 20em;
-    width: 100%;
-    height: 50%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .slider_container {
-    width: 728px;
-    height: 409.5px;
-    position: relative;
-  }
-  .subs {
-    display: block;
-    box-sizing: border-box;
-    position: relative;
-    margin-top: 150px;
-    padding-top: 200em;
-    width: 100%;
-    height: 50%;
-  }
+  padding-top:4em;
+  height:550px;
 }

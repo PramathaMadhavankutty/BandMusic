@@ -1,39 +1,11 @@
-#video-container
+.video-container
 {
-	display: flex;		
-	flex-flow: row wrap; 	
-	box-sizing:border-box;
-	/*margin-right: auto;
 	margin-left: auto;
-	max-width: 1050px;*/
-
-	font-size: 2em;
+	margin-right: auto;
+	margin-top: 100px;
 	background-color: black;
 
 }
 
-
-
- 
-@media (min-width: 1200px) {
-	#container {
-		width: 1170px;
-		height: 658.125px;
-	}
-}
- 
-@media (min-width: 992px) and (max-width: 1199px) {
-	#container{
-		width: 940px;
-		height: 528.75px;
-	}
-}
- 
-@media (min-width: 768px) and (max-width: 991px) {
-	#container {
-		width: 728px;
-		height: 409.5px;
-	}
-}
 
 
