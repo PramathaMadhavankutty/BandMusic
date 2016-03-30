@@ -27,7 +27,7 @@
     "cover": "assets-band/assets/images/flatout.png",
     "audios": [{
         "id": 1,
-        "title": "Flat Out",
+        "title": "Flat Out 1",
         "url": "assets-band/assets/audio/DaydreamBeliever.mp3",
         "icon": "assets-band/assets/images/beatles.jpg"
     }, {
@@ -45,11 +45,11 @@
     "cover": "assets-band/assets/images/halloffame.jpg",
     "audios": [{
         "id": 2,
-        "title": "Hall of Fame",
+        "title": "Hall of Fame 1",
         "url": "assets-band/assets/audio/ImABeliever.mp3"
     }, {
         "id": 3,
-        "title": "Hall of Fame",
+        "title": "Hall of Fame 2",
         "url": "assets-band/assets/audio/SteppingStone.mp3"
     }]
 }]
