@@ -40,7 +40,7 @@
       vm.isVideo = (vm.type === 'video');
       vm.isAudio = (vm.type === 'audio');
       
-      var mediaTag = $($element).find(vm.type).get(0);
+      var mediaTag = angular.element($element).find(vm.type).get(0);
       
       vm.playTrack = function(track){
         vm.activeTrack = track;
