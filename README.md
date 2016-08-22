@@ -1,4 +1,4 @@
-Band Website Stream 1 project Code-Institute
+#Band Website Stream 1 project Code-Institute
 
 A Front-End web application for a Musical Band.Just given "Limes and Vines" a random name for the musical band.
 This web application is developed using HTML, CSS, BOOTSTRAP, Javascript and AngularJS.
